@@ -6,7 +6,7 @@
   --surface: rgba(255, 255, 255, 0.72);
   --surface-strong: rgba(255, 255, 255, 0.92);
   --text: #111111;
-  --muted: #6e6e73;
+  --muted: #56565c;
   --line: rgba(17, 17, 17, 0.08);
   --line-strong: rgba(17, 17, 17, 0.14);
   --accent: #4f7db8;
@@ -23,7 +23,7 @@ body[data-theme="dark"] {
   --surface: rgba(18, 18, 24, 0.76);
   --surface-strong: rgba(24, 24, 30, 0.94);
   --text: #f5f5f7;
-  --muted: #a1a1a6;
+  --muted: #c4c4ca;
   --line: rgba(255, 255, 255, 0.09);
   --line-strong: rgba(255, 255, 255, 0.16);
   --accent: #7fb2f3;
@@ -200,13 +200,13 @@ body[data-theme="dark"] .hero {
 
 .lede {
   max-width: 62ch;
-  font-size: 1.06rem;
+  font-size: 1.1rem;
 }
 
 .hero-actions {
   display: flex;
   gap: 12px;
-  margin: 32px 0;
+  margin: 24px 0 28px;
   flex-wrap: wrap;
 }
 
@@ -245,6 +245,21 @@ body[data-theme="dark"] .button--primary {
 
 .button--ghost {
   background: transparent;
+}
+
+.button--subtle {
+  min-height: auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+}
+
+.button--subtle:hover,
+.button--subtle:focus-visible {
+  color: var(--text);
+  box-shadow: none;
+  transform: none;
 }
 
 .button:hover,
@@ -372,27 +387,6 @@ body[data-theme="dark"] .photo-frame__backdrop {
     0 0 0 1px rgba(255, 255, 255, 0.18);
 }
 
-.photo-badge {
-  position: absolute;
-  left: 24px;
-  bottom: 22px;
-  transform: translateZ(24px);
-  padding: 9px 14px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.84);
-  border: 1px solid rgba(255, 255, 255, 0.42);
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--muted);
-  white-space: nowrap;
-  z-index: 2;
-}
-
-body[data-theme="dark"] .photo-badge {
-  background: rgba(17, 17, 17, 0.82);
-}
-
 .hero-note {
   position: absolute;
   max-width: 250px;
@@ -402,13 +396,8 @@ body[data-theme="dark"] .photo-badge {
 }
 
 .hero-note--top {
-  top: 30px;
-  left: 28px;
-}
-
-.hero-note--bottom {
-  right: 18px;
-  bottom: 26px;
+  top: 32px;
+  left: 18px;
 }
 
 .stats-strip,
@@ -653,6 +642,10 @@ body[data-theme="dark"] .filter-chip.is-active {
   .hero-note {
     position: static;
     max-width: none;
+  }
+
+  .button--subtle {
+    padding-top: 6px;
   }
 
   .stats-strip,
