@@ -11,7 +11,7 @@ Interactive one-page personal site for Ahmed AlOtaibi.
 ## Local preview
 
 ```bash
-cd /Users/ahmedalotaibi/Desktop/itsAhmed
+cd itsAhmed
 python3 -m http.server 8000
 ```
 
