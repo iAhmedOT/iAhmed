@@ -1,0 +1,73 @@
+Ahmed AlOtaibi
+San Francisco, CA
+Email: iAhmedOT@gmail.com
+Languages: Arabic (native), English (fluent)
+
+ABOUT
+Technical support and operations professional with experience across Apple Retail, QA testing, training, inventory management, and software projects. Known for strong customer communication, calm troubleshooting, and high-volume support performance. Brings a mix of hands-on technical support, process discipline, and product-minded curiosity.
+
+HIGHLIGHTS
+- Technical Specialist at Apple supporting hardware, software, account, and device issues
+- Supported approximately 1,200 customers in one quarter in a high-volume environment
+- Achieved a 98/100 NPS score based on customer feedback
+- Ranked #1 in appointments handled at the bar
+- Trained 150+ employees in technical knowledge and customer service readiness
+- QA experience on Apple’s Location Framework
+- Built iOS and API-connected projects using Swift and external services
+
+EXPERIENCE
+Technical Specialist — Apple Inc.
+San Francisco, CA
+November 2021 – Present
+- Troubleshoot hardware, software, account, and device issues across Apple products and services.
+- Deliver high-quality support in a fast-paced customer environment.
+- Resolve complex issues with strong ownership, communication, and escalation judgment.
+- Maintain strong service performance while handling high appointment volume.
+
+Training In-Store Experience — Apple Inc.
+San Francisco, CA
+February 2023 – August 2023
+- Conducted training programs for 150+ employees to improve technical knowledge and customer service readiness.
+- Supported onboarding and team development while balancing store operational needs.
+
+Location Framework QA Test Engineer — Apple
+June 2025 – November 2025
+- Executed test plans for Location Framework features and validated regressions across releases.
+- Reproduced bugs, documented findings clearly, and collaborated with engineering teams on fixes.
+
+Store Manager — Eureka Market
+San Francisco, CA
+June 2018 – July 2021
+- Oversaw daily store operations, including inventory management, cash handling, and vendor relations.
+- Maintained accurate stock levels through efficient inventory tracking.
+
+PROJECTS
+KXSF Radio — iOS Developer
+January 2021 – May 2021
+- Forked an open-source project and updated it for newer Apple operating systems.
+- Helped make the app usable across Apple devices.
+- Technology used: Swift
+
+API and AI Tooling Projects
+- Built a weather app using an external API to retrieve and display live data.
+- Connected Anthropic and OpenAI APIs in personal bot and tooling experiments.
+- Explored API workflows, documentation, and practical debugging through hands-on projects.
+
+SKILLS
+- macOS support and device troubleshooting
+- Hardware and software support
+- Customer support and escalation handling
+- Device lifecycle management and inventory coordination
+- Training and onboarding support
+- Google Workspace, Slack
+- Swift, SQL, JavaScript, XCTest, Jenkins
+- API integrations and technical documentation
+
+EDUCATION
+Bachelor in Computer and Information Science
+Notre Dame de Namur University
+December 2019
+
+Associate Degree in Polymer Engineering
+Jubail Industrial College
+August 2011
