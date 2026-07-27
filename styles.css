@@ -184,8 +184,8 @@ body[data-theme="dark"] .hero {
 }
 
 .hero h1 {
-  font-size: clamp(2.9rem, 5.3vw, 5.2rem);
-  max-width: 12ch;
+  font-size: clamp(2.35rem, 4.2vw, 4rem);
+  max-width: 14ch;
 }
 
 .lede,
@@ -409,7 +409,7 @@ body[data-theme="dark"] .photo-frame__backdrop {
 }
 
 .stats-strip {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   padding: 18px 24px;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
