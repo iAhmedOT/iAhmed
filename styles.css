@@ -153,8 +153,8 @@ a {
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.28fr) minmax(320px, 0.72fr);
-  gap: 56px;
-  padding: 56px;
+  gap: 36px;
+  padding: 48px;
   border-radius: 40px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.52));
   border: 1px solid var(--line);
@@ -206,7 +206,7 @@ body[data-theme="dark"] .hero {
 .hero-actions {
   display: flex;
   gap: 12px;
-  margin: 24px 0 28px;
+  margin: 20px 0 24px;
   flex-wrap: wrap;
 }
 
@@ -309,9 +309,10 @@ body[data-theme="dark"] .quick-facts li {
 
 .hero-visual {
   position: relative;
-  min-height: 520px;
+  min-height: 400px;
   display: grid;
-  align-content: center;
+  align-content: start;
+  justify-items: end;
   gap: 16px;
 }
 
@@ -396,8 +397,8 @@ body[data-theme="dark"] .photo-frame__backdrop {
 }
 
 .hero-note--top {
-  top: 32px;
-  left: 18px;
+  top: 20px;
+  left: 0;
 }
 
 .stats-strip,
