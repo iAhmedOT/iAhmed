@@ -318,7 +318,7 @@ body[data-theme="dark"] .quick-facts li {
 
 .photo-frame {
   position: relative;
-  width: min(100%, 234px);
+  width: min(100%, 281px);
   margin-left: auto;
   padding: 16px;
   border-radius: 38px;
