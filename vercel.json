@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "/ai-output-review",
+      "destination": "/ai-output-review/",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/ai-output-review/",
+      "destination": "https://ai-output-review-tool.vercel.app/"
+    },
+    {
+      "source": "/ai-output-review/:path*",
+      "destination": "https://ai-output-review-tool.vercel.app/:path*"
+    }
+  ]
+}

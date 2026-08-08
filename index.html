@@ -8,7 +8,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://iahmedot.com/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -40,7 +40,7 @@
 
             <div class="hero-actions">
               <a class="button button--primary" href="mailto:iAhmedOT@gmail.com">Email me</a>
-              <a class="button button--ghost" href="assets/Ahmed-AlOtaibi-Resume.pdf" download="">
+              <a class="button button--ghost" href="assets/Ahmed-AlOtaibi-Resume.pdf" download>
                 Download resume
               </a>
               <a class="button button--subtle" href="#experience">See experience</a>
@@ -245,22 +245,28 @@
           </article>
 
           <article class="card section-card project-card">
-            <p class="section-tag">AI Workflow</p>
-            <h3>AI-assisted workflows and agent maintenance</h3>
+            <p class="section-tag">AI Evaluation Tool</p>
+            <h3>AI Output Review Tool</h3>
             <p>
-              I use AI agents and API-connected tools in daily life and work for planning,
-              research, writing, troubleshooting, and task organization when they help teams move
-              faster without losing human judgment.
-            </p>
-            <p>
-              Beyond using the tools, I also maintain and improve these workflows by handling
-              updates, resolving API-call issues, debugging technical problems, and improving
-              reliability when integrations or agent behavior break down.
+              Built and validated a local-first QA workspace for scoring AI responses against a
+              six-part rubric, classifying failure patterns, and preserving a searchable evidence
+              trail without sending review data to an external service.
             </p>
             <div class="project-meta">
-              <span>AI workflows</span>
-              <span>API troubleshooting</span>
-              <span>Human-in-the-loop</span>
+              <span>AI evaluation</span>
+              <span>JavaScript</span>
+              <span>Test-driven QA</span>
+            </div>
+            <div class="project-actions">
+              <a class="button button--primary" href="/ai-output-review/">Open live tool</a>
+              <a
+                class="button button--ghost"
+                href="https://github.com/iAhmedOT/ai-output-review-tool"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View source
+              </a>
             </div>
           </article>
 
@@ -292,7 +298,7 @@
           </div>
 
           <div class="contact-links">
-            <div class="contact-actions" aria-label="Contact methods">
+            <div class="contact-actions" role="group" aria-label="Contact methods">
               <a class="contact-chip" href="mailto:iAhmedOT@gmail.com" aria-label="Email Ahmed">
                 <span class="contact-chip__icon">✉</span>
                 <span>Email</span>
@@ -314,6 +320,6 @@
     </div>
 
     <script src="script.js"></script>
-  
+
 
 </body></html>

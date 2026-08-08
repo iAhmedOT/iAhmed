@@ -203,11 +203,16 @@ body[data-theme="dark"] .hero {
   font-size: 1.1rem;
 }
 
-.hero-actions {
+.hero-actions,
+.project-actions {
   display: flex;
   gap: 12px;
   margin: 20px 0 24px;
   flex-wrap: wrap;
+}
+
+.project-actions {
+  margin-bottom: 0;
 }
 
 .button {
@@ -732,6 +737,7 @@ body[data-theme="dark"] .filter-chip.is-active {
   }
 
   .hero-actions,
+  .project-actions,
   .pill-list,
   .project-meta,
   .contact-actions,
